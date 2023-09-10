@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Database">
+    <Position X="2" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAIAAAARwIAAQQAAAAAAACAAAAAAAAAQA=</HashCode>
+      <FileName>Database.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Student">
+    <Position X="5.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAsAGAAAgBEAAEQAAAAoAAAAgBAQAAAAAAACJAAEQA=</HashCode>
+      <FileName>Student.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Exam_mark">
+    <Position X="9" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEIAAABAAAAAgAAIAAAgAAAAgAAAAAAAoAAAAAA=</HashCode>
+      <FileName>Exam_mark.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Exam_mark_list">
+    <Position X="9" Y="1" Width="1.5" />
+    <NestedTypes>
+      <Struct Name="Exam_mark_list::Node" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Exam_mark_list.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAgABgAAAAAAAAIEAAAAAAAEAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Exam_mark_list.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Student_list">
+    <Position X="7.25" Y="1" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Struct Name="Student_list::Node">
+        <TypeIdentifier>
+          <NewMemberFileName>Student_list.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAgAgAAgAAAAAAAAIEAAgAAAAEAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Student_list.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Menu">
+    <Position X="3.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAoAAMIEAAAAAAAAwUAAAAAgAAAAAAQAACAA=</HashCode>
+      <FileName>Menu.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="student">
+    <Position X="7.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAACAAAgAAAAAAAAAAUgAgQAAAEAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Student.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="exam_mark">
+    <Position X="9" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAQAAAAAAAAAAABAAAAAAgAA=</HashCode>
+      <FileName>Exam_mark.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
